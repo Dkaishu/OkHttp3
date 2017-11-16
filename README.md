@@ -21,7 +21,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.Dkaishu:okhttp3:v1.0.0'
+	        compile 'com.github.Dkaishu:okhttp3:v1.0.1'
 	}
 
 ###感谢：
