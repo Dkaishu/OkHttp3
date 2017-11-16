@@ -6,10 +6,6 @@ To get a Git project into your build:
 
 Step 1. Add the JitPack repository to your build file
 
-gradle
-maven
-sbt
-leiningen
 Add it in your root build.gradle at the end of repositories:
 
 	allprojects {
@@ -29,8 +25,9 @@ Step 2. Add the dependency
 
 ###说明：
 
-    使用时apk大小增加在342k左右；
-    最低支持版本14；
+- 依赖 okhttp:3.8.1 ; 已经集成 Gson 2.8.1
+- 使用时apk大小增加在342k左右；
+- 最低支持版本14；
 
 ###使用指南：
 
